@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/cvm_sancionadores-mcp",
+  "title": "CVM: Processos Sancionadores Julgados",
+  "description": "CVM: Court Cases Sancionadores Julgados, official-source lookup. Platform-hosted, pay per query with",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/cvm_sancionadores-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_cvm_sancionadores"
+    }
+  ]
+}
